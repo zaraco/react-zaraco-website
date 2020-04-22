@@ -54,11 +54,11 @@ class Skills extends Component {
             <>
                 <Row>
                     <Col>
-                        <Carousel>
-                            <Carousel.Item style={{marginTop: '20px'}}>
+                        <Carousel style={{marginTop: '20px'}}>
+                            <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="Web-Developer-Skills-1.jpg"
+                                    src="what-is-a-web-developer.jpg"
                                     alt="First Refinery"
                                     style={{width: "100%", height: "370px", objectFit: "cover"}}
                                 />
@@ -108,11 +108,12 @@ class Skills extends Component {
 
                     <Col md={6}>
 
-                        <Jumbotron fluid style={{marginTop: '40px'}}>
+                        <Jumbotron fluid style={{marginTop: '80px'}}>
                             <Container>
                                 <h1>What I've been up to.</h1>
                                 <p>
-
+                                    Here's a selection of some recent work. For more up to the minute work you can visit me on
+                                    <a href="https://github.com/zaraco"> github.</a>
                                 </p>
                             </Container>
                         </Jumbotron>
