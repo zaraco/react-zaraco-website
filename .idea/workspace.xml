@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b0afb1-cdce-49e1-8417-1001fe28bcb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +32,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -64,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587543135630</updated>
-      <workItem from="1587543139181" duration="2562000" />
+      <workItem from="1587543139181" duration="11082000" />
     </task>
     <servers />
   </component>
@@ -76,21 +72,21 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="445" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.831@0.23.1440.831" timestamp="1587547071925" />
-    <state width="1105" height="215" key="GridCell.Tab.0.bottom" timestamp="1587548790525">
+    <state width="1105" height="215" key="GridCell.Tab.0.bottom" timestamp="1587562606739">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1587548790525" />
-    <state width="1105" height="215" key="GridCell.Tab.0.center" timestamp="1587548790524">
+    <state width="1105" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1587562606739" />
+    <state width="1105" height="215" key="GridCell.Tab.0.center" timestamp="1587562606738">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1587548790524" />
-    <state width="1105" height="215" key="GridCell.Tab.0.left" timestamp="1587548790523">
+    <state width="1105" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1587562606738" />
+    <state width="1105" height="215" key="GridCell.Tab.0.left" timestamp="1587562606737">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1587548790523" />
-    <state width="1105" height="215" key="GridCell.Tab.0.right" timestamp="1587548790525">
+    <state width="1105" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1587562606737" />
+    <state width="1105" height="215" key="GridCell.Tab.0.right" timestamp="1587562606738">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1587548790525" />
+    <state width="1105" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1587562606738" />
   </component>
 </project>

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Col, Container, Row} from "react-bootstrap";
+import './App.css';
+import {Button, Card, Col, Container, Form, FormControl, Nav, Navbar, Row} from "react-bootstrap";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./Component/Home";
 import Contact from "./Component/Contact";
+import Skills from "./Component/Skills"
 
 
 class App extends Component {
@@ -13,22 +14,37 @@ class App extends Component {
         super();
     }
 
+    clickHandlerButton = () => {
+        window.location.href = '/home'
+    }
+
     render() {
         return (
             <>
                 <Container>
                     <Row>
                         <Col>
-                            <Router>
-                                <Switch>
-                                    <Route path="/home" component={Home}/>
-                                    <Route path="/contact" component={Contact}/>
-
-                                </Switch>
-                            </Router>
+                            <Navbar expand="md" sticky="top" bg="dark" variant="dark">
+                                <Navbar.Brand href="/">ZaraCo.</Navbar.Brand>
+                                <Nav className="mr-auto">
+                                    <Nav.Link href="/">Home</Nav.Link>
+                                    <Nav.Link href="/skills">Skills</Nav.Link>
+                                    <Nav.Link href="/contact">Contact me</Nav.Link>
+                                </Nav>
+                            </Navbar>
                         </Col>
                     </Row>
+                    <Router>
+                        <Switch>
+                            <Route exact path='/' component={Home}/>
+                            <Route exact path='/skills' component={Skills}/>
+                            <Route path="/contact" component={Contact}/>
+
+                        </Switch>
+                    </Router>
+
                 </Container>
+
             </>
         );
     }
