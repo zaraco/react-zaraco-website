@@ -24,7 +24,7 @@ class Home extends Component {
 
                                 </Card.Title>
                                 <Card.Text>
-                                    This is Zahra Teymouri, I am Front-End Developer.
+                                    This is Zahra Teymouri, I am a Front-End & React Developer.
                                     <p> living in Genova, Italy. </p>
                                     <p> Here is my personal website and I would like to share my projects.</p>
                                 </Card.Text>
@@ -43,7 +43,7 @@ class Home extends Component {
 
                                 <Card.Subtitle className="mb-2 text-muted">ZaraCo.</Card.Subtitle>
                                 <Card.Text>
-                                    If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch via below link.                                </Card.Text>
+                                    If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch via the below link.                                </Card.Text>
                                 <Card.Link href="/contact">Contact me</Card.Link>
                             </Card.Body>
                         </Card>

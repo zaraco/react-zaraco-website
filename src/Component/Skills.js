@@ -34,6 +34,9 @@ class Skills extends Component {
                 {
                     name: "Bootstrap",
                     percent: 90
+                },{
+                    name: "Html",
+                    percent: 90
                 },
                 {
                     name: "Photoshop",
