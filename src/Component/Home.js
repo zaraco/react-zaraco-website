@@ -1,9 +1,13 @@
 import React, {Component} from "react";
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import {Button, Card, Col, Row} from "react-bootstrap";
 
 class Home extends Component {
     constructor() {
         super();
+    }
+
+    clickHandlerButton = () => {
+        window.location.href = '/skills'
     }
 
     render() {
@@ -24,8 +28,7 @@ class Home extends Component {
                                     <p> living in Genova, Italy. </p>
                                     <p> Here is my personal website and I would like to share my projects.</p>
                                 </Card.Text>
-                                <Button variant="outline-info" onClick={this.clickHandlerButton}>More
-                                    Information</Button>
+                                <Button variant="outline-info" onClick={this.clickHandlerButton} size='lg'>My Skills</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -41,7 +44,6 @@ class Home extends Component {
                                 <Card.Subtitle className="mb-2 text-muted">ZaraCo.</Card.Subtitle>
                                 <Card.Text>
                                     If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch via below link.                                </Card.Text>
-                                <Card.Link href="/skills">Skills</Card.Link>
                                 <Card.Link href="/contact">Contact me</Card.Link>
                             </Card.Body>
                         </Card>

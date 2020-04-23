@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {Button, Card, Col, Container, Form, FormControl, Nav, Navbar, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Form, FormControl, ModalFooter, Nav, Navbar, Row} from "react-bootstrap";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./Component/Home";
 import Contact from "./Component/Contact";
@@ -29,7 +29,7 @@ class App extends Component {
                         <Nav.Link href="/contact">Contact me</Nav.Link>
                     </Nav>
                 </Navbar>
-                <Container style={{marginTop: "80px"}}>
+                <Container style={{marginTop: "80px", marginBottom: '30px'}}>
                     <Router>
                         <Switch>
                             <Route exact path='/' component={Home}/>
@@ -41,7 +41,13 @@ class App extends Component {
 
                 </Container>
 
+                <ModalFooter>
+                    <div style={{textAlign: "center", width: "100%"}}>
+                        Copyright ©2020 ZaraCo. made by React.
+                    </div>
+                </ModalFooter>
             </>
+
         );
     }
 
