@@ -91,14 +91,14 @@ class Skills extends Component {
                 </Row>
 
                 <Row>
-                    <Col md={6}>
-                        <Card style={{marginTop: '40px'}}>
+                    <Col md={6} className="skills">
+                        <Card style={{marginTop: '40px'}} className='body'>
 
                             <Card.Body>
 
                                 <h1>Skills</h1>
 
-                                <Card.Text>These are my skills. You can see in below</Card.Text>
+                                <Card.Text>These are my skills. You can see in below: </Card.Text>
 
                                 <p> {progressBar}</p>
 
@@ -108,14 +108,14 @@ class Skills extends Component {
 
                     <Col md={6}>
 
-                        <Jumbotron fluid style={{marginTop: '80px'}}>
-                            <Container>
+                        <Jumbotron className= 'projects' fluid style={{marginTop: '80px'}}>
+
                                 <h1>What I've been up to.</h1>
                                 <p>
                                     Here's a selection of some recent work. For more up to the minute work you can visit me on
                                     <a href="https://github.com/zaraco"> github.</a>
                                 </p>
-                            </Container>
+
                         </Jumbotron>
 
                     </Col>

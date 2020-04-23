@@ -14,39 +14,39 @@ class Contact extends Component {
         return (
             <>
                 <Row>
-                    <Col  md={5} style={{
-                        marginTop: '50px',
-                        fontFamily: "Lucida Console, Courier, monospace",
-                        textAlign: 'center'
-                    }}>
-                        <h4>Contact me</h4>
+                    <Col className='contacts' md={5} >
+
+                        <h5>Get in touch me</h5>
                         <Image src="049817_522ee6ad10df4030a16e15fbd2d12761_mv2_d_2047_1888_s_2.webp" rounded/>
                         <p> @zahrateymouri</p>
                     </Col>
 
-                    <Col  md={7} style={{marginTop: '60px',fontFamily: "Lucida Console, Courier, monospace",
-                        fontSize:'20'}}>
+                    <Col md={7}>
 
-                        <Jumbotron>
+                        <Jumbotron className='info'>
 
-                            <FontAwesomeIcon icon={faFacebookSquare}/>
+                            <h1>Let's get social</h1>
+
+                            <h3>Follow my online fan page on Facebook and profiles on Linkedin and Instagram. </h3>
+
+                            <FontAwesomeIcon icon={faFacebookSquare} />
                             <span>
-                                 <a href="https://www.facebook.com/zara.teymouri"> Facebook </a>
+                                 <a href="https://www.facebook.com/zara.teymouri" > Facebook </a>
                             </span>
 
                             <br/>
 
 
-                            <FontAwesomeIcon icon={faLinkedin}/>
+                            <FontAwesomeIcon icon={faLinkedin} />
                             <span>
-                                   <a href="https://www.linkedin.com/in/zaraco/"> Linkdin </a>
+                                   <a href="https://www.linkedin.com/in/zaraco/" > Linkdin </a>
                             </span>
 
                             <br/>
 
-                            <FontAwesomeIcon icon={faInstagram}/>
+                            <FontAwesomeIcon icon={faInstagram} />
                             <span>
-                                 <a href="https://www.instagram.com/zaraaco/"> Instagram </a>
+                                 <a href="https://www.instagram.com/zaraaco/" > Instagram </a>
                             </span>
 
                         </Jumbotron>

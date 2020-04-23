@@ -24,7 +24,7 @@ class App extends Component {
                 <Container>
                     <Row>
                         <Col>
-                            <Navbar expand="lg" sticky="top" bg="dark" variant="dark">
+                            <Navbar style={{fontFamily: 'Caveat', fontSize: '25px' }}expand="lg" sticky="top" bg="dark" variant="dark">
                                 <Navbar.Brand href="/">ZaraCo.</Navbar.Brand>
                                 <Nav className="mr-auto">
                                     <Nav.Link href="/">Home</Nav.Link>
