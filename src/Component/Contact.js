@@ -27,7 +27,7 @@ class Contact extends Component {
 
                             <h1>Let's get social</h1>
 
-                            <h3>Follow my online fan page on Facebook and profiles on Linkedin and Instagram. </h3>
+                            <h3>Follow my online page on Facebook and profiles on Linkedin and Instagram. </h3>
 
                             <FontAwesomeIcon icon={faFacebookSquare} />
                             <span>

@@ -21,19 +21,15 @@ class App extends Component {
     render() {
         return (
             <>
-                <Container>
-                    <Row>
-                        <Col>
-                            <Navbar style={{fontFamily: 'Caveat', fontSize: '25px' }}expand="lg" sticky="top" bg="dark" variant="dark">
-                                <Navbar.Brand href="/">ZaraCo.</Navbar.Brand>
-                                <Nav className="mr-auto">
-                                    <Nav.Link href="/">Home</Nav.Link>
-                                    <Nav.Link href="/skills">Skills</Nav.Link>
-                                    <Nav.Link href="/contact">Contact me</Nav.Link>
-                                </Nav>
-                            </Navbar>
-                        </Col>
-                    </Row>
+                <Navbar className='navbar' expand="lg" fixed="top"  variant="dark">
+                    <Navbar.Brand href="/">ZaraCo.</Navbar.Brand>
+                    <Nav className="mr-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/skills">Skills</Nav.Link>
+                        <Nav.Link href="/contact">Contact me</Nav.Link>
+                    </Nav>
+                </Navbar>
+                <Container style={{marginTop: "80px"}}>
                     <Router>
                         <Switch>
                             <Route exact path='/' component={Home}/>

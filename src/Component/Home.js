@@ -8,15 +8,15 @@ class Home extends Component {
 
     render() {
         return (
-            <>
+            <div className="home">
                 <Row>
                     <Col md={4}>
-                        <Card style={{width: '100%', marginTop: '20px'}}>
+                        <Card className= 'homecart1'>
                             <Card.Img variant="top" src="2020-04-22 13.05.01.jpg"/>
                             <Card.Body>
                                 <Card.Title>
 
-                                    Web Developer
+                                    <h2>Web Developer</h2>
 
                                 </Card.Title>
                                 <Card.Text>
@@ -31,10 +31,14 @@ class Home extends Component {
                     </Col>
 
                     <Col md={8}>
-                        <Card style={{ width: '100%', marginTop: '200px' }}>
+                        <Card className='homecart2' >
                             <Card.Body>
-                                <Card.Title>I can help.</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">ZaRa</Card.Subtitle>
+
+                                <Card.Title>
+                                    <h2>I can help.</h2>
+                                </Card.Title>
+
+                                <Card.Subtitle className="mb-2 text-muted">ZaraCo.</Card.Subtitle>
                                 <Card.Text>
                                     If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch via below link.                                </Card.Text>
                                 <Card.Link href="/skills">Skills</Card.Link>
@@ -45,7 +49,7 @@ class Home extends Component {
                     </Col>
                 </Row>
 
-            </>
+            </div>
         );
     }
 }

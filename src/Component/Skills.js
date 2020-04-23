@@ -16,6 +16,15 @@ class Skills extends Component {
                     percent: 70
                 },
                 {
+                    name: "Rest-Api",
+                    percent: 70
+                },
+                {
+                    name: "Git",
+                    percent: 80
+                },
+
+                {
                     name: "Npm",
                     percent: 80
                 }, {
@@ -34,10 +43,6 @@ class Skills extends Component {
                     name: "Sketch",
                     percent: 70
                 },
-                {
-                    name: "Git",
-                    percent: 80
-                },
 
             ]
         }
@@ -52,12 +57,11 @@ class Skills extends Component {
 
         return (
             <>
-                <Row>
+                <Row className="rowskills">
                     <Col>
-                        <Carousel style={{marginTop: '20px'}}>
+                        <Carousel>
                             <Carousel.Item>
                                 <img
-                                    className="d-block w-100"
                                     src="what-is-a-web-developer.jpg"
                                     alt="First Refinery"
                                     style={{width: "100%", height: "370px", objectFit: "cover"}}
@@ -67,7 +71,6 @@ class Skills extends Component {
 
                             <Carousel.Item>
                                 <img
-                                    className="d-block w-100"
                                     src="Top-10-Tips-To-Learn-JavaScript.jpg"
                                     alt="Second Refinery"
                                     style={{width: "100%", height: "370px", objectFit: "cover"}}
@@ -78,7 +81,6 @@ class Skills extends Component {
 
                             <Carousel.Item>
                                 <img
-                                    className="d-block w-100"
                                     src="ReactJS.png"
                                     alt="Third Refinery"
                                     style={{width: "100%", height: "370px", objectFit: "cover"}}
@@ -91,6 +93,23 @@ class Skills extends Component {
                 </Row>
 
                 <Row>
+
+                    <Col md={6}>
+
+                        <Jumbotron className= 'projects' fluid style={{marginTop: '80px'}}>
+
+                            <h1>What I've been up to.</h1>
+                            <p>
+                                Here's a selection of some recent work. For more up to the minute work you can visit me on
+                                <a href="https://github.com/zaraco"> github.</a>
+                            </p>
+
+                        </Jumbotron>
+
+                    </Col>
+
+
+
                     <Col md={6} className="skills">
                         <Card style={{marginTop: '40px'}} className='body'>
 
@@ -106,19 +125,6 @@ class Skills extends Component {
                         </Card>
                     </Col>
 
-                    <Col md={6}>
-
-                        <Jumbotron className= 'projects' fluid style={{marginTop: '80px'}}>
-
-                                <h1>What I've been up to.</h1>
-                                <p>
-                                    Here's a selection of some recent work. For more up to the minute work you can visit me on
-                                    <a href="https://github.com/zaraco"> github.</a>
-                                </p>
-
-                        </Jumbotron>
-
-                    </Col>
 
                 </Row>
 

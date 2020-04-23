@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587543135630</updated>
       <workItem from="1587543139181" duration="19207000" />
-      <workItem from="1587629067313" duration="6057000" />
+      <workItem from="1587629067313" duration="12739000" />
     </task>
     <servers />
   </component>
@@ -77,21 +78,21 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="445" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.831@0.23.1440.831" timestamp="1587547071925" />
-    <state width="1105" height="215" key="GridCell.Tab.0.bottom" timestamp="1587644054183">
+    <state width="1105" height="215" key="GridCell.Tab.0.bottom" timestamp="1587651115027">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1587644054183" />
-    <state width="1105" height="215" key="GridCell.Tab.0.center" timestamp="1587644054169">
+    <state width="1105" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1587651115027" />
+    <state width="1105" height="215" key="GridCell.Tab.0.center" timestamp="1587651115026">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1587644054169" />
-    <state width="1105" height="215" key="GridCell.Tab.0.left" timestamp="1587644054160">
+    <state width="1105" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1587651115026" />
+    <state width="1105" height="215" key="GridCell.Tab.0.left" timestamp="1587651115025">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1587644054160" />
-    <state width="1105" height="215" key="GridCell.Tab.0.right" timestamp="1587644054172">
+    <state width="1105" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1587651115025" />
+    <state width="1105" height="215" key="GridCell.Tab.0.right" timestamp="1587651115026">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1105" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1587644054172" />
+    <state width="1105" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1587651115026" />
   </component>
 </project>
