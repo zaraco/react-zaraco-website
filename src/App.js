@@ -22,14 +22,16 @@ class App extends Component {
         return (
             <>
                 <Navbar className='navbar' expand="lg" fixed="top"  variant="dark">
-                    <Navbar.Brand href="/">ZaraCo.</Navbar.Brand>
+                    <Navbar.Brand href="/"> <img src='logo-zaraco..png' style={{height: '70px'}}/>
+                        ZaraCo.
+                    </Navbar.Brand>
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/skills">Skills</Nav.Link>
                         <Nav.Link href="/contact">Contact me</Nav.Link>
                     </Nav>
                 </Navbar>
-                <Container style={{marginTop: "80px", marginBottom: '30px'}}>
+                <Container style={{marginTop: "100px", marginBottom: '30px'}}>
                     <Router>
                         <Switch>
                             <Route exact path='/' component={Home}/>

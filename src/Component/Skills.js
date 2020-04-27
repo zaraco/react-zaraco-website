@@ -27,8 +27,12 @@ class Skills extends Component {
                 {
                     name: "Npm",
                     percent: 80
-                }, {
+                },
+                {
                     name: "Css",
+                    percent: 80
+                },{
+                    name: "WordPress",
                     percent: 80
                 },
                 {
@@ -103,8 +107,8 @@ class Skills extends Component {
 
                             <h1>What I've been up to.</h1>
                             <p>
-                                Here's a selection of some recent work. For more up to the minute work you can visit me on
-                                <a href="https://github.com/zaraco"> github.</a>
+                                Here's a selection of some recent work. For more up to the minute work, you can visit me on
+                                <a href="https://github.com/zaraco" target='_blank' > Github.</a>
                             </p>
 
                         </Jumbotron>

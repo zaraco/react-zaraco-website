@@ -17,7 +17,7 @@ class Contact extends Component {
                     <Col className='contacts' md={5} >
 
                         <h5>Get in touch me</h5>
-                        <Image src="049817_522ee6ad10df4030a16e15fbd2d12761_mv2_d_2047_1888_s_2.webp" rounded/>
+                        <Image src='logo-zaraco..png' style={{  height: '180px'}}/>
                         <p> @zahrateymouri</p>
                     </Col>
 
@@ -31,7 +31,7 @@ class Contact extends Component {
 
                             <FontAwesomeIcon icon={faFacebookSquare} />
                             <span>
-                                 <a href="https://www.facebook.com/zara.teymouri" > Facebook </a>
+                                 <a href="https://www.facebook.com/zara.teymouri" target='_blank' > Facebook </a>
                             </span>
 
                             <br/>
@@ -39,14 +39,14 @@ class Contact extends Component {
 
                             <FontAwesomeIcon icon={faLinkedin} />
                             <span>
-                                   <a href="https://www.linkedin.com/in/zaraco/" > Linkdin </a>
+                                   <a href="https://www.linkedin.com/in/zaraco/" target='_blank' > Linkdin </a>
                             </span>
 
                             <br/>
 
                             <FontAwesomeIcon icon={faInstagram} />
                             <span>
-                                 <a href="https://www.instagram.com/zaraaco/" > Instagram </a>
+                                 <a href="https://www.instagram.com/zaraaco/" target='_blank' > Instagram </a>
                             </span>
 
                         </Jumbotron>

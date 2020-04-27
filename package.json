@@ -1,5 +1,6 @@
 {
   "name": "react-zaraco-website",
+  "homepage": "http://zara-co.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
