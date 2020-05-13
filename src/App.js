@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./Component/Home";
 import Contact from "./Component/Contact";
 import Skills from "./Component/Skills"
+import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 
 
 class App extends Component {
@@ -21,15 +22,18 @@ class App extends Component {
     render() {
         return (
             <>
-                <Navbar className='navbar' expand="lg" fixed="top"  variant="dark">
+                <Navbar className='navbar' expand="lg" fixed="top" variant="dark">
                     <Navbar.Brand href="/"> <img src='logo-zaraco..png' style={{height: '70px'}}/>
                         ZaraCo.
                     </Navbar.Brand>
-                    <Nav className="mr-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/skills">Skills</Nav.Link>
-                        <Nav.Link href="/contact">Contact me</Nav.Link>
-                    </Nav>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/skills">Skills</Nav.Link>
+                            <Nav.Link href="/contact">Contact me</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
                 <Container style={{marginTop: "100px", marginBottom: '30px'}}>
                     <Router>

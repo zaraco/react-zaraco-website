@@ -16,6 +16,10 @@ class Skills extends Component {
                     percent: 70
                 },
                 {
+                    name: "Redux",
+                    percent: 50
+                },
+                {
                     name: "Rest-Api",
                     percent: 70
                 },
