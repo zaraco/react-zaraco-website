@@ -55,6 +55,10 @@ class Skills extends Component {
                     percent: 50
                 },
                 {
+                    name: "DigitalArt",
+                    percent: 50
+                },
+                {
                     name: "Sketch",
                     percent: 70
                 },

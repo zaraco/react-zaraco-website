@@ -6,13 +6,15 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./Component/Home";
 import Contact from "./Component/Contact";
 import Skills from "./Component/Skills"
-import NavbarCollapse from "react-bootstrap/NavbarCollapse";
-
+import ReactGA from 'react-ga';
 
 class App extends Component {
 
     constructor() {
         super();
+        const trackingId = "UA-167384787-1";
+        ReactGA.initialize(trackingId);
+
     }
 
     clickHandlerButton = () => {
