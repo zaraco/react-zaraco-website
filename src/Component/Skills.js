@@ -20,6 +20,10 @@ class Skills extends Component {
                     percent: 50
                 },
                 {
+                    name: "React-Native",
+                    percent: 40
+                },
+                {
                     name: "Rest-Api",
                     percent: 70
                 },
