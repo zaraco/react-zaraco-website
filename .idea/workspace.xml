@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1590138311971" duration="1315000" />
       <workItem from="1590167563593" duration="350000" />
       <workItem from="1590773438535" duration="179000" />
-      <workItem from="1591260110937" duration="790000" />
+      <workItem from="1591260110937" duration="9792000" />
     </task>
     <servers />
   </component>
@@ -96,25 +96,25 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="445" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.831@0.23.1440.831" timestamp="1587547071925" />
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1591261113967">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1591282071239">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591261113967" />
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591282071239" />
     <state width="1034" height="213" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1590138575236" />
-    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1591261113966">
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1591282071236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591261113966" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591282071236" />
     <state width="1034" height="213" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1590138575232" />
-    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1591261113965">
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1591282071235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591261113965" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591282071235" />
     <state width="1034" height="213" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1590138575231" />
-    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1591261113966">
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1591282071238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591261113966" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591282071238" />
     <state width="1034" height="213" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1590138575233" />
     <state x="372" y="178" width="670" height="676" key="search.everywhere.popup" timestamp="1587978591610">
       <screen x="0" y="23" width="1440" height="831" />
