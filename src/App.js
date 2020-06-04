@@ -7,6 +7,7 @@ import Home from "./Component/Home";
 import Contact from "./Component/Contact";
 import Skills from "./Component/Skills"
 import ReactGA from 'react-ga';
+import Portfolio from "./Component/Portfolio";
 
 class App extends Component {
 
@@ -14,6 +15,7 @@ class App extends Component {
         super();
         const trackingId = "UA-167384787-1";
         ReactGA.initialize(trackingId);
+        ReactGA.pageview(window.location.pathname + window.location.search);
 
     }
 
@@ -42,6 +44,7 @@ class App extends Component {
                         <Switch>
                             <Route exact path='/' component={Home}/>
                             <Route exact path='/skills' component={Skills}/>
+                            <Route path='/portfolio' component={Portfolio}/>
                             <Route path="/contact" component={Contact}/>
 
                         </Switch>
