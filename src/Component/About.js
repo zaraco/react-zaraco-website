@@ -1,5 +1,9 @@
 import React, {Component} from "react";
-import {Button, Card, Col, Image, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
+import Particles from "react-particles-js";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faLaptop, faMapPin} from "@fortawesome/free-solid-svg-icons";
+import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 class Home extends Component {
     constructor() {
@@ -14,51 +18,34 @@ class Home extends Component {
         return (
             <>
                 <div className="header">
-                    <h1> My Passions & Personality.</h1>
-                </div>
-
-                <div className="about">
-                    <Row>
-                        <Col md={4}>
-                            <Card className='homecart1'>
-                                <Card.Img variant="top" src="2020-04-22 13.05.01.jpg"/>
-                                <Card.Body>
-                                    <Card.Title>
-
-                                        <h2>Web Developer</h2>
-
-                                    </Card.Title>
-                                    <Card.Text>
-                                        This is Zahra Teymouri, I am a Front-End & React Developer.
-                                        <p> living in Genova, Italy. </p>
-                                        <p> Here is my personal website and I would like to share my projects.</p>
-                                    </Card.Text>
-                                    <Button variant="outline-info" onClick={this.clickHandlerButton} size='lg'>My
-                                        Skills</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col md={8}>
-                            <Card className='homecart2'>
-                                <Card.Body>
-
-                                    <Card.Title>
-                                        <h2>I can help.</h2>
-                                    </Card.Title>
-
-                                    <Card.Subtitle className="mb-2 text-muted">ZaraCo.</Card.Subtitle>
-                                    <Card.Text>
-                                        If you have a project that you want to get started, think you need my help with
-                                        something or just fancy saying hey, then get in touch via the below
-                                        link. </Card.Text>
-                                    <Card.Link href="/contact">Contact me</Card.Link>
-                                </Card.Body>
-                            </Card>
-
+                    <Row className="content">
+                        <Col md={{span: 8, offset: 2}}>
+                            <h1>Zaraco</h1>
+                            <h2>Front-End Developer</h2>
                         </Col>
                     </Row>
+                </div>
+                <div className="about">
+                    <Particles className="particles"/>
+                    <div className="content">
+                        <h3> About me </h3>
+                        <Row>
+                            <Col md={{span: 4, offset: 1}}>
+                                <Image className="image" src="Laptop.jpg"/>
+                            </Col>
+                            <Col md={6}>
+                                <h4>
+                                    Zahra Teymouri (Zaraco)
+                                </h4>
+                                <p><FontAwesomeIcon icon={faLaptop} style={{marginRight: "10px"}}/> Front-End & React Developer</p>
+                                <p><FontAwesomeIcon icon={faMapPin} style={{marginRight: "10px"}}/> Based in Genova, Italy</p>
+                                <p><FontAwesomeIcon icon={faGithub} style={{marginRight: "10px"}}/> <a href="https://github.com/zaraco" target='_blank'>My Github</a></p>
+                                <p><FontAwesomeIcon icon={faLinkedin} style={{marginRight: "10px"}}/> <a href="https://www.linkedin.com/in/zaraco/" target='_blank'>My Linkedin</a></p>
 
+                            </Col>
+                        </Row>
+
+                    </div>
                 </div>
             </>
         );

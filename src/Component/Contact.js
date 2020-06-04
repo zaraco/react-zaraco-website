@@ -17,7 +17,7 @@ class Contact extends Component {
                     <Col className='contacts' md={5} >
 
                         <h5>Get in touch me</h5>
-                        <Image src='logo-zaraco..png' style={{  height: '180px'}}/>
+                        <Image src='logo-zaraco.png' style={{  height: '180px'}}/>
                         <p> @zahrateymouri</p>
                     </Col>
 

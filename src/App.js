@@ -8,6 +8,8 @@ import Contact from "./Component/Contact";
 import Skills from "./Component/Skills"
 import ReactGA from 'react-ga';
 import Portfolio from "./Component/Portfolio";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub, faReact} from "@fortawesome/free-brands-svg-icons";
 
 class App extends Component {
 
@@ -25,7 +27,7 @@ class App extends Component {
         return (
             <>
                 <Navbar className='navbar' expand="md" fixed="top" variant="dark">
-                    <Navbar.Brand href="/"> <img src='logo-zaraco..png' style={{height: '70px'}}/>
+                    <Navbar.Brand href="/"> <img src='logo-zaraco.png' style={{height: '70px'}}/>
                         ZaraCo.
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -33,12 +35,11 @@ class App extends Component {
                         <Nav className="mr-auto">
                             <Nav.Link href="/">About me</Nav.Link>
                             <Nav.Link href="/skills">Skills</Nav.Link>
-                            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                             <Nav.Link href="/contact">Contact me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <div style={{marginTop: "90px", marginBottom: '30px'}}>
+                <div style={{marginBottom: '30px'}}>
                     <Router>
                         <Switch>
                             <Route exact path='/' component={About}/>
@@ -51,8 +52,9 @@ class App extends Component {
                 </div>
 
                 <ModalFooter>
-                    <div style={{textAlign: "center", width: "100%"}}>
-                        Copyright ©2020 ZaraCo. made by React.
+                    <div className="footer">
+                        Copyright ©2020 ZaraCo. made by React <FontAwesomeIcon icon={faReact}/>.
+                        <a href="https://github.com/zaraco/react-zaraco-website" target='_blank' style={{marginLeft: "10px"}}><FontAwesomeIcon icon={faGithub}/> See My Source</a>
                     </div>
                 </ModalFooter>
             </>
