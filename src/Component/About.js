@@ -1,14 +1,14 @@
 import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css'
-import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Image, ProgressBar, Row} from "react-bootstrap";
 import Particles from "react-particles-js";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
     faCode,
     faGraduationCap,
     faLaptop,
-    faMapPin, faTerminal,
+    faMapPin, faTasks, faTerminal,
     faUniversalAccess,
     faUniversity
 } from "@fortawesome/free-solid-svg-icons";
@@ -18,13 +18,81 @@ import {faBlackTie} from "@fortawesome/free-brands-svg-icons/faBlackTie";
 class About extends Component {
     constructor() {
         super();
+        this.state = {
+            skillsLeft: [
+                {
+                    name: "React",
+                    percent: 80
+                },
+                {
+                    name: "JavaScript",
+                    percent: 70
+                },
+                {
+                    name: "Redux",
+                    percent: 70
+                },
+                {
+                    name: "React-Native",
+                    percent: 50
+                },
+                {
+                    name: "Rest-Api",
+                    percent: 70
+                },
+                {
+                    name: "Git",
+                    percent: 80
+                },
+
+                {
+                    name: "Npm",
+                    percent: 80
+                }],
+            skillsRight: [
+                {
+                    name: "Css",
+                    percent: 80
+                }, {
+                    name: "WordPress",
+                    percent: 80
+                },
+                {
+                    name: "Bootstrap",
+                    percent: 90
+                }, {
+                    name: "Html",
+                    percent: 90
+                },
+                {
+                    name: "Photoshop",
+                    percent: 50
+                },
+                {
+                    name: "DigitalArt",
+                    percent: 50
+                },
+                {
+                    name: "Sketch",
+                    percent: 70
+                },
+
+            ]
+        }
     }
 
-    clickHandlerButton = () => {
-        window.location.href = '/skills'
-    }
 
     render() {
+        const {skillsLeft, skillsRight} = this.state
+        const progressBarLeft = skillsLeft.length ? skillsLeft.map((skill) =>
+            <ProgressBar style={{marginBottom: '10px'}} animated now={skill.percent}
+                         label={`${skill.name} ${skill.percent}%`}/>
+        ) : ''
+        const progressBarRight = skillsRight.length ? skillsRight.map((skill) =>
+            <ProgressBar style={{marginBottom: '10px'}} animated now={skill.percent}
+                         label={`${skill.name} ${skill.percent}%`}/>
+        ) : ''
+
         return (
             <>
                 <div className="header">
@@ -74,7 +142,7 @@ class About extends Component {
                             <Card className="cart1">
                                 <Card.Body>
                                     <Card.Title><FontAwesomeIcon icon={faReact}/>
-                                         React Developer</Card.Title>
+                                        React Developer</Card.Title>
                                     <Card.Text>
                                         I am working as a Freelance developer. </Card.Text>
                                     <Card.Text>
@@ -91,7 +159,7 @@ class About extends Component {
                             <Card className="cart2">
                                 <Card.Body>
                                     <Card.Title><FontAwesomeIcon icon={faCode}/>
-                                         Javascript Developer</Card.Title>
+                                        Javascript Developer</Card.Title>
                                     <Card.Text>
                                         I have developed the Bazyad website. </Card.Text>
                                     <Card.Text>
@@ -107,7 +175,7 @@ class About extends Component {
                             <Card className="cart3">
                                 <Card.Body>
                                     <Card.Title><FontAwesomeIcon icon={faTerminal}/>
-                                          React-Redux Developer</Card.Title>
+                                        React-Redux Developer</Card.Title>
                                     <Card.Text>
                                         I have developed websites by React-Reduct </Card.Text>
                                     <Card.Text>
@@ -125,6 +193,21 @@ class About extends Component {
                         </Col>
                     </Row>
                 </div>
+
+                <div className="skills">
+                    <h4><FontAwesomeIcon icon={faTasks}/>
+                        Skills
+                    </h4>
+                    <Row>
+                        <Col md={{span: 4, offset: 2}}>
+                            {progressBarLeft}
+                        </Col>
+                        <Col md={{span: 4}}>
+                            {progressBarRight}
+                        </Col>
+                    </Row>
+                </div>
+
                 <div className="education">
                     <Row className="master">
                         <Col md={{span: 7, offset: 1}}>

@@ -16,14 +16,14 @@ class Contact extends Component {
         return (
             <>
                 <Row>
-                    <Col className='contacts' md={5} >
+                    <Col className='contacts' md={{span: 4, offset: 1}} >
 
                         <h5>Get in touch me</h5>
                         <Image src='logo-zaraco.png' style={{  height: '180px'}}/>
                         <p> @zahrateymouri</p>
                     </Col>
 
-                    <Col md={7}>
+                    <Col md={6}>
 
                         <Jumbotron className='info'>
 
@@ -41,7 +41,7 @@ class Contact extends Component {
 
                             <FontAwesomeIcon icon={faLinkedin} />
                             <span>
-                                   <a href="https://www.linkedin.com/in/zaraco/" target='_blank' > Linkdin </a>
+                                   <a href="https://www.linkedin.com/in/zaraco/" target='_blank' > Linkedin </a>
                             </span>
 
                             <br/>
