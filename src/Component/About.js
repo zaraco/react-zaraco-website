@@ -109,7 +109,7 @@ class About extends Component {
                         <h3> About me </h3>
                         <Row>
                             <Col md={{span: 4, offset: 1}}>
-                                <Image className="image" src="digiArt.jpg"/>
+                                <Image className="image" src="/images/digiArt.jpg"/>
                             </Col>
                             <Col md={6}>
                                 <h4>
@@ -227,7 +227,7 @@ class About extends Component {
 
 
                         <Col md={3}>
-                            <Image className="image" src="Uni.jpg"/>
+                            <Image className="image" src="/images/Uni.jpg"/>
                         </Col>
                     </Row>
                 </div>

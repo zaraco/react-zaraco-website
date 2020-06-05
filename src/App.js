@@ -26,7 +26,7 @@ class App extends Component {
         return (
             <>
                 <Navbar className='navbar' expand="md" fixed="top" variant="dark">
-                    <Navbar.Brand href="/"> <img src='/logo-zaraco.png' style={{height: '70px'}}/>
+                    <Navbar.Brand href="/"> <img src='/images/logo-zaraco.png' style={{height: '70px'}}/>
                         ZaraCo.
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

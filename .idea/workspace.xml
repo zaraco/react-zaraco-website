@@ -2,87 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b0afb1-cdce-49e1-8417-1001fe28bcb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/portfolio/authentication.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/bazyad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/commercial-website.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/e-shopping-react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/e-shopping-redux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/fake-api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/social-network.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/to-do.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/user-filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio/user-list.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/1509537335943576" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/468082218-idpiframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/FileView.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/bat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/box-469cf41adb11dc78be68c1ae7f9457a4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/cb=gapi.loaded_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/chunk_fav_panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/chunk_signup_modal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/chunk_zoom_modal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/clk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_198423466-stock-photo-blue-connection-network-lines-dots.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_204912744-stock-illustration-abstract-background-connecting-innovation-dots.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_205798302-stock-illustration-white-global-communication-background-colorful.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_217423258-stock-illustration-modern-abstract-network-science-connection.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_217423774-stock-illustration-modern-abstract-network-science-connection.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_218363270-stock-illustration-white-global-communication-poster-colorful.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_231538478-stock-illustration-white-global-communication-poster-colourful.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_231538536-stock-illustration-white-global-communication-poster-colourful.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_231538550-stock-illustration-white-global-communication-poster-colourful.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_231538812-stock-illustration-white-global-communication-poster-colourful.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_293911092-stock-illustration-global-social-communication-horizontal-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_70070563-stock-illustration-communication-social-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/depositphotos_90249476-stock-illustration-communication-social-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/ec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/f(1).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/f(2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/f(3).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/f(4).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/f(5).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/f(6).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/fbevents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/ga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/gtm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/hotjar-410340.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/iframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/modules.a3d983311a7a43f86303.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/platform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.FileView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.chunk_fav_panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.chunk_signup_modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.chunk_zoom_modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.default_About_AffiliateInfoLanding_AffiliateLanding_ApiPlans_ApiProgramLanding_ApiService_Autorenewa_dd1189e3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.default_About_AffiliateInfoLanding_AffiliateLanding_ApiPlans_ApiProgramLanding_ApiService_Autorenewa_ed42949d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.default_About_AffiliateInfoLanding_AffiliateLanding_ApiPlans_ApiProgramLanding_ApiService_Autorenewa_f2725a05.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.default_chunk_fav_panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.default_chunk_fav_panel_chunk_license_wizard_modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.default_chunk_signup_modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.default_chunk_zoom_modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/route.vendors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/sdk(1).js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/sdk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/sp.pl.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/White Global Communication Poster Colourful Abstract Network Vector Simple Background — Stock Vector © Maxborovkov #231538550_files/ytc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/049817_522ee6ad10df4030a16e15fbd2d12761_mv2_d_2047_1888_s_2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/049817_522ee6ad10df4030a16e15fbd2d12761_mv2_d_2047_1888_s_2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2020-04-22 13.05.01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/2020-04-22 13.05.01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/49866675-vector-leaf-veins-closeup-pattern-background-simple-realistic-portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/49866675-vector-leaf-veins-closeup-pattern-background-simple-realistic-portrait.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Laptop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Laptop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ReactJS.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/ReactJS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Top-10-Tips-To-Learn-JavaScript.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Top-10-Tips-To-Learn-JavaScript.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Uni.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Uni.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Web-Developer-Skills-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Web-Developer-Skills-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Zahra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Zahra.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/digiArt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/digiArt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo-zaraco.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo-zaraco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/authentication.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/authentication.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/bazyad.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/bazyad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/commercial-website.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/commercial-website.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/e-shopping-react.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/e-shopping-react.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/e-shopping-redux.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/e-shopping-redux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/fake-api.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/fake-api.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/social-network.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/social-network.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/to-do.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/to-do.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/user-filter.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/user-filter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/user-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/user-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/what-is-a-web-developer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/what-is-a-web-developer.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Skills.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Skills.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +78,8 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/portfolio" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Component" />
@@ -176,7 +127,7 @@
       <workItem from="1590773438535" duration="179000" />
       <workItem from="1591260110937" duration="20617000" />
       <workItem from="1591345227474" duration="21948000" />
-      <workItem from="1591379959269" duration="4307000" />
+      <workItem from="1591379959269" duration="4969000" />
     </task>
     <servers />
   </component>
@@ -193,25 +144,25 @@
     </state>
     <state x="445" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591374374201" />
     <state x="445" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.831@0.23.1440.831" timestamp="1587547071925" />
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1591384573512">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1591385277613">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591384573512" />
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591385277613" />
     <state width="1034" height="213" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1590138575236" />
-    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1591384573509">
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1591385277611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591384573509" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591385277611" />
     <state width="1034" height="213" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1590138575232" />
-    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1591384573509">
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1591385277610">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591384573509" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591385277610" />
     <state width="1034" height="213" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1590138575231" />
-    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1591384573510">
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1591385277612">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591384573510" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591385277612" />
     <state width="1034" height="213" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1590138575233" />
     <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1591378044983">
       <screen x="0" y="0" width="1440" height="900" />
@@ -265,6 +216,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="161" y="38" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1591371452034" />
+    <state x="400" y="207" width="639" height="486" key="find.popup" timestamp="1591385075230">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="400" y="207" width="639" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1591385075230" />
     <state x="372" y="168" width="670" height="733" key="search.everywhere.popup" timestamp="1591382421160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

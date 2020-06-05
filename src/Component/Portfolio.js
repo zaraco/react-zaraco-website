@@ -92,7 +92,7 @@ class Portfolio extends Component {
         const portfolioDOM = this.state.portfolio ? this.state.portfolio.map((item) =>
             <Col md={4}>
                 <Card className="portfolio-card">
-                    <Card.Img variant="top" src={`/portfolio/${item.image}`} style={{
+                    <Card.Img variant="top" src={`/images/portfolio/${item.image}`} style={{
                         objectFit: "cover",
                         height: "200px"
                     }}/>
