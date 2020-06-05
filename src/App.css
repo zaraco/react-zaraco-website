@@ -139,6 +139,13 @@ body {
     transition: 3s;
 }
 
+
+@media (max-width: 600px) {
+    .experience {
+        height: 800px;
+    }
+}
+
 .experience:hover {
     filter: none;
 }
@@ -147,12 +154,22 @@ body {
     font-family: 'Caveat', serif;
     font-style: italic;
     color: #f6f6f6;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
-    font-size: 40px;
     margin: 50px 50px;
     text-align: center;
 
+}
+.experience .cart1:hover {
+    background-color: #ff6152;
+}
+
+.experience .cart2:hover {
+    background-color: #ff7f6e;
+}
+
+.experience .cart3:hover {
+    background-color: #ffc0c0;
 }
 
 .education {
@@ -160,6 +177,8 @@ body {
     width: 100%;
     height: 600px;
 }
+
+
 
 .education .image {
     width: 100%;
@@ -169,19 +188,27 @@ body {
 
 }
 
-.education .master h4 {
+.education  h4 {
     font-family: 'Caveat', serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
-    font-size: 40px;
     margin: 50px 50px;
-
 }
-.education .master p {
+
+.education  h5 {
     font-family: 'Caveat', serif;
     font-style: italic;
     font-size: 30px;
+    font-weight: bold;
+    margin: 50px 50px;
+
+}
+
+.education p {
+    font-family: 'Caveat', serif;
+    font-style: italic;
+    font-size: 25px;
 
 }
 

@@ -2,8 +2,15 @@ import React, {Component} from "react";
 import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
 import Particles from "react-particles-js";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGraduationCap, faLaptop, faMapPin, faUniversalAccess, faUniversity} from "@fortawesome/free-solid-svg-icons";
-import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {
+    faCode,
+    faGraduationCap,
+    faLaptop,
+    faMapPin, faTerminal,
+    faUniversalAccess,
+    faUniversity
+} from "@fortawesome/free-solid-svg-icons";
+import {faGithub, faLinkedin, faReact} from "@fortawesome/free-brands-svg-icons";
 import {faBlackTie} from "@fortawesome/free-brands-svg-icons/faBlackTie";
 
 class About extends Component {
@@ -54,37 +61,63 @@ class About extends Component {
                 </div>
                 <div className="experience">
                     <Row className="content">
-                        <Col md={4}>
+                        <Col md={12}>
                             <h4><FontAwesomeIcon icon={faBlackTie} style={{marginRight: "10px"}}/>
                                 Experience
                             </h4>
-                            <Card>
+                        </Col>
+
+
+                        <Col md={{span: 3, offset: 1}}>
+                            <Card className="cart1">
                                 <Card.Body>
-                                    <Card.Title>Freelance</Card.Title>
-                                    <Card.Subtitle className="mb-2 text-muted">React Developer</Card.Subtitle>
+                                    <Card.Title><FontAwesomeIcon icon={faReact}/>
+                                         React Developer</Card.Title>
                                     <Card.Text>
-                                        I am working as a Freelance developer                                    </Card.Text>
+                                        I am working as a Freelance developer. </Card.Text>
                                     <Card.Text>
                                         Here's a selection of some recent work. For more up to the minute work, you can
                                         visit me on Github.
                                     </Card.Text>
                                     <Card.Link href="https://github.com/zaraco" target='_blank'>Github</Card.Link>
-                                    <Card.Link href="http://zara-co.com/contact" target='_blank'>Contact me</Card.Link>
+                                    <Card.Link href="/contact" target='_blank'>Contact me</Card.Link>
                                 </Card.Body>
                             </Card>
+                        </Col>
 
-                            <Card>
+                        <Col md={3}>
+                            <Card className="cart2">
                                 <Card.Body>
-                                    <Card.Title>Bazyad</Card.Title>
-                                    <Card.Subtitle className="mb-2 text-muted">Javascript Developer</Card.Subtitle>
+                                    <Card.Title><FontAwesomeIcon icon={faCode}/>
+                                         Javascript Developer</Card.Title>
                                     <Card.Text>
-                                                                            </Card.Text>
+                                        I have developed the Bazyad website. </Card.Text>
                                     <Card.Text>
-                                        Here's a selection of some recent work. For more up to the minute work, you can
-                                        visit me on Github.
+                                        Here's the link, please visit it.
                                     </Card.Text>
-                                    <Card.Link href="https://github.com/zaraco" target='_blank'>Github</Card.Link>
-                                    <Card.Link href="http://zara-co.com/contact" target='_blank'>Contact me</Card.Link>
+                                    <Card.Link href="https://bazyad.com/" target='_blank'>Bazyad</Card.Link>
+
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
+                        <Col md={3}>
+                            <Card className="cart3">
+                                <Card.Body>
+                                    <Card.Title><FontAwesomeIcon icon={faTerminal}/>
+                                          React-Redux Developer</Card.Title>
+                                    <Card.Text>
+                                        I have developed websites by React-Reduct </Card.Text>
+                                    <Card.Text>
+                                        Here's the links, please visit it.
+                                    </Card.Text>
+                                    <Card.Link href="https://github.com/zaraco/e-shopping-cart-react-redux"
+                                               target='_blank'>E-shopping</Card.Link>
+                                    <Card.Link href="https://github.com/zaraco/react-redux-project"
+                                               target='_blank'>Mobile</Card.Link>
+                                    <Card.Link href="https://github.com/zaraco/react-redux-todolist"
+                                               target='_blank'>To-Do-List</Card.Link>
+
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -96,17 +129,15 @@ class About extends Component {
                             <h4><FontAwesomeIcon icon={faGraduationCap} style={{marginRight: "10px"}}/>
                                 Education
                             </h4>
-                            <p><FontAwesomeIcon icon={faUniversity} style={{marginRight: "10px"}}/>
-                                University of Mazandaran</p>
+                            <h5><FontAwesomeIcon icon={faUniversity} style={{marginRight: "10px"}}/>
+                                University of Mazandaran</h5>
                             <p>
                                 I was a master’s student at University of Mazandaran, was studying Business Management
                                 (Change Management); I graduated in February of 2017.
-                            </p>
-
-                            <p>
                                 My Final Thesis : "Identifying and Classify Success Factors in International Business
                                 Negotiations with Iranian Businessmen"
                             </p>
+
                         </Col>
 
 
