@@ -127,16 +127,64 @@ body {
     font-size: 20px;
 
 }
-
-
-.aboutMe {
-
-    font-family: 'Caveat', serif;
-    font-size: 20px;
+.experience {
     width: 100%;
+    height: 600px;
+    background-image: url("/Laptop.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(90%);
+    transition: 3s;
+}
 
+.experience:hover {
+    filter: none;
+}
+
+.experience h4{
+    font-family: 'Caveat', serif;
+    font-style: italic;
+    color: #f6f6f6;
+    font-size: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px 50px;
+    text-align: center;
 
 }
+
+.education {
+    background-color: #9a9a9a;
+    width: 100%;
+    height: 600px;
+}
+
+.education .image {
+    width: 100%;
+    padding-top: 50px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+
+}
+
+.education .master h4 {
+    font-family: 'Caveat', serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px 50px;
+
+}
+.education .master p {
+    font-family: 'Caveat', serif;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
 
 .contacts {
     text-align: center;
