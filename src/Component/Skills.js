@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Skills.css'
 import {Card, Carousel, Col, Container, Jumbotron, ProgressBar, Row} from "react-bootstrap";
 
 class Skills extends Component {
@@ -76,41 +78,13 @@ class Skills extends Component {
 
         return (
             <>
-                <Row className="rowskills">
-                    <Col>
-                        <Carousel>
-                            <Carousel.Item>
-                                <img
-                                    src="what-is-a-web-developer.jpg"
-                                    alt="First Refinery"
-                                    style={{width: "100%", height: "370px", objectFit: "cover"}}
-                                />
-
-                            </Carousel.Item>
-
-                            <Carousel.Item>
-                                <img
-                                    src="Top-10-Tips-To-Learn-JavaScript.jpg"
-                                    alt="Second Refinery"
-                                    style={{width: "100%", height: "370px", objectFit: "cover"}}
-
-                                />
-
-                            </Carousel.Item>
-
-                            <Carousel.Item>
-                                <img
-                                    src="ReactJS.png"
-                                    alt="Third Refinery"
-                                    style={{width: "100%", height: "370px", objectFit: "cover"}}
-
-                                />
-
-                            </Carousel.Item>
-                        </Carousel>
-                    </Col>
-                </Row>
-
+                <div className="header">
+                    <Row className="content">
+                        <Col md={{span: 8, offset: 2}}>
+                            <h1>Zaraco</h1>
+                        </Col>
+                    </Row>
+                </div>
                 <Row>
 
                     <Col md={6}>

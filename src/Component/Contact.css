@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+
+.contacts {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.contacts p {
+    font-family: 'Caveat', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #f0f1f3;
+
+}
+
+.contacts h5 {
+    font-family: 'Caveat', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #f0f1f3;
+
+}
+
+
+.info {
+    margin-top: 100px;
+    font-family: 'Caveat', serif;
+    font-size: 30px;
+}
+
+.info h1 {
+    font-weight: bold;
+
+}
+

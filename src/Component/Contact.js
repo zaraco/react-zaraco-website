@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Contact.css';
 import {Col, Image, Jumbotron, Row} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookSquare, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'

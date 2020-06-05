@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './About.css'
 import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
 import Particles from "react-particles-js";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -39,7 +41,7 @@ class About extends Component {
                         <h3> About me </h3>
                         <Row>
                             <Col md={{span: 4, offset: 1}}>
-                                <Image className="image" src="Laptop.jpg"/>
+                                <Image className="image" src="digiArt.jpg"/>
                             </Col>
                             <Col md={6}>
                                 <h4>
