@@ -56,6 +56,15 @@
     padding-top: 50px;
 }
 
+.portfolio h2 {
+    font-family: 'Caveat', serif;
+    color: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+
 .portfolio-card {
     margin-bottom: 20px;
     filter: grayscale(90%);

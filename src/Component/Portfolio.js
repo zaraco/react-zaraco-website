@@ -133,6 +133,11 @@ class Portfolio extends Component {
 
                 <div className="portfolio">
                     <Row>
+                        <Col md={{span: 8, offset: 2}}>                        <h2>
+                            What I've been up to (Projects)
+                        </h2>
+                        </Col>
+
                         {portfolioDOM}
                     </Row>
                 </div>
