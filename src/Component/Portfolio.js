@@ -34,6 +34,12 @@ class Portfolio extends Component {
                     image: 'bazyad.png'
                 },
                 {
+                    title: 'Pixel Editor by Javascript',
+                    tags: ['javaScript', 'css', 'html','ES6'],
+                    description: '',
+                    link: 'https://github.com/zaraco/pixel-editor',
+                    image: 'pixel-editor.png'
+                },{
                     title: 'Social Network by React',
                     tags: ['react', 'javaScript', 'css', 'bootstrap'],
                     description: '',
