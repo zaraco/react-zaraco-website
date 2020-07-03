@@ -113,7 +113,12 @@ class Portfolio extends Component {
                             ) : ''}
                         </Card.Text>
 
-                        <Button variant="dark" onClick={() => {window.location = item.link}}><FontAwesomeIcon icon={faGithub}/> See the Source</Button>
+                        <Button variant="dark" onClick={() => {
+                            window.open(
+                                item.link,
+                                '_blank'
+                            );
+                        }}><FontAwesomeIcon icon={faGithub} /> See the Source</Button>
 
                     </Card.Body>
                 </Card>
@@ -131,13 +136,12 @@ class Portfolio extends Component {
                     </Row>
                 </div>
 
-                <div className="portfolio">
+                <div className="portfolio" >
                     <Row>
                         <Col md={{span: 8, offset: 2}}>                        <h2>
                             What I've been up to (Projects)
                         </h2>
                         </Col>
-
                         {portfolioDOM}
                     </Row>
                 </div>
