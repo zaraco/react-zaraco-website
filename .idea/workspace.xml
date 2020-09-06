@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b0afb1-cdce-49e1-8417-1001fe28bcb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/typescript.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,17 +47,17 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images/portfolio" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/portfolio" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/portfolio" />
       <recent name="$PROJECT_DIR$/src/Motion" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/images/portfolio" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/portfolio" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -102,7 +105,11 @@
       <workItem from="1591379959269" duration="5292000" />
       <workItem from="1592293324952" duration="2592000" />
       <workItem from="1592297209082" duration="1000" />
-      <workItem from="1593768596093" duration="1317000" />
+      <workItem from="1593768596093" duration="1912000" />
+      <workItem from="1594824222609" duration="1549000" />
+      <workItem from="1596128921581" duration="897000" />
+      <workItem from="1598992914493" duration="614000" />
+      <workItem from="1599388007167" duration="3032000" />
     </task>
     <servers />
   </component>
@@ -110,35 +117,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="253" y="248" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587571891229">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="266" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599390082590">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="248" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.831@0.23.1440.831" timestamp="1587571891229" />
+    <state x="266" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599390082590" />
     <state x="445" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591374374201">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="445" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591374374201" />
-    <state x="445" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.831@0.23.1440.831" timestamp="1587547071925" />
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1593770101131">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1599391293172">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593770101131" />
-    <state width="1034" height="213" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1590138575236" />
-    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1593770101128">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599391293172" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1599391293170">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593770101128" />
-    <state width="1034" height="213" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1590138575232" />
-    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1593770101126">
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599391293170" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1599391293169">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593770101126" />
-    <state width="1034" height="213" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1590138575231" />
-    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1593770101130">
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599391293169" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1599391293171">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593770101130" />
-    <state width="1034" height="213" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1590138575233" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599391293171" />
     <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1591378044983">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -199,6 +201,5 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="372" y="168" width="670" height="733" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591382421160" />
-    <state x="372" y="178" width="670" height="676" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1587978591610" />
   </component>
 </project>

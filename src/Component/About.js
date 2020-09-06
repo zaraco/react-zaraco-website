@@ -26,16 +26,31 @@ class About extends Component {
                 },
                 {
                     name: "JavaScript",
-                    percent: 70
+                    percent: 80
                 },
+
                 {
                     name: "Redux",
+                    percent: 80
+                },
+                {
+                    name: "Typescript",
                     percent: 70
                 },
                 {
                     name: "React-Native",
                     percent: 50
                 },
+
+                {
+                    name: "Kotlin",
+                    percent: 30
+                },
+                {
+                    name: "MongoDB",
+                    percent: 60
+                },
+
                 {
                     name: "Rest-Api",
                     percent: 70
@@ -50,6 +65,14 @@ class About extends Component {
                     percent: 80
                 }],
             skillsRight: [
+                {
+                    name: "Node.js",
+                    percent: 50
+                },
+                {
+                    name: "Express.js",
+                    percent: 50
+                },
                 {
                     name: "Css",
                     percent: 80
@@ -155,7 +178,7 @@ class About extends Component {
                             </Card>
                         </Col>
 
-                        <Col md={3}>
+                        <Col md={2}>
                             <Card className="cart2">
                                 <Card.Body>
                                     <Card.Title><FontAwesomeIcon icon={faCode}/>
@@ -166,12 +189,13 @@ class About extends Component {
                                         Here's the link, please visit it.
                                     </Card.Text>
                                     <Card.Link href="https://bazyad.com/" target='_blank'>Bazyad</Card.Link>
+                                    <Card.Link href="http://zara-co.com/samples/pixel-editor/" target='_blank'>Pixel-Editor</Card.Link>
 
                                 </Card.Body>
                             </Card>
                         </Col>
 
-                        <Col md={3}>
+                        <Col md={2}>
                             <Card className="cart3">
                                 <Card.Body>
                                     <Card.Title><FontAwesomeIcon icon={faTerminal}/>
@@ -181,12 +205,26 @@ class About extends Component {
                                     <Card.Text>
                                         Here's the links, please visit it.
                                     </Card.Text>
+                                    <Card.Link href="https://github.com/zaraco/memoreat-website-react-redux"
+                                               target='_blank'>Memoreat</Card.Link>
                                     <Card.Link href="https://github.com/zaraco/e-shopping-cart-react-redux"
-                                               target='_blank'>E-shopping</Card.Link>
-                                    <Card.Link href="https://github.com/zaraco/react-redux-project"
-                                               target='_blank'>Mobile</Card.Link>
-                                    <Card.Link href="https://github.com/zaraco/react-redux-todolist"
-                                               target='_blank'>To-Do-List</Card.Link>
+                                               target='_blank'>shopping</Card.Link>
+
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
+                        <Col md={2}>
+                            <Card className="cart4">
+                                <Card.Body>
+                                    <Card.Title><FontAwesomeIcon icon={faCode}/>
+                                        Typescript Developer</Card.Title>
+                                    <Card.Text>
+                                        Typescript-Redux </Card.Text>
+                                    <Card.Text>
+                                        Here's the link, please visit it.
+                                    </Card.Text>
+                                    <Card.Link href="https://github.com/zaraco/github-user-search-react-redux-typescript" target='_blank'>Search-Github</Card.Link>
 
                                 </Card.Body>
                             </Card>

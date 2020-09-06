@@ -20,6 +20,13 @@ class Portfolio extends Component {
                     image: 'e-shopping-react.png'
                 },
                 {
+                    title: 'Search-Github by Typescript-React-Redux',
+                    tags: ['typescript','react','redux','api', 'css', 'bootstrap'],
+                    description: '',
+                    link: 'https://github.com/zaraco/github-user-search-react-redux-typescript',
+                    image: 'typescript.png'
+                },
+                {
                     title: 'E-Shopping by Redux',
                     tags: ['redux', 'react', 'javaScript', 'css', 'bootstrap'],
                     description: '',
