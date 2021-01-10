@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b0afb1-cdce-49e1-8417-1001fe28bcb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/typescript.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +51,8 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/images/portfolio" />
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/portfolio" />
       <recent name="$PROJECT_DIR$/src" />
@@ -109,7 +107,9 @@
       <workItem from="1594824222609" duration="1549000" />
       <workItem from="1596128921581" duration="897000" />
       <workItem from="1598992914493" duration="614000" />
-      <workItem from="1599388007167" duration="3032000" />
+      <workItem from="1599388007167" duration="3507000" />
+      <workItem from="1602430819170" duration="226000" />
+      <workItem from="1610288449890" duration="3013000" />
     </task>
     <servers />
   </component>
@@ -125,22 +125,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="445" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591374374201" />
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1599391293172">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1599391853969">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599391293172" />
-    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1599391293170">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599391853969" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1599391853968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599391293170" />
-    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1599391293169">
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599391853968" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1599391853967">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599391293169" />
-    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1599391293171">
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599391853967" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1599391853969">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599391293171" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599391853969" />
     <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1591378044983">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

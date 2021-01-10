@@ -122,7 +122,7 @@ class About extends Component {
                     <Row className="content">
                         <Col md={{span: 8, offset: 2}}>
                             <h1>Zaraco</h1>
-                            <h2>Front-End Developer</h2>
+                            <h2>Web Developer</h2>
                         </Col>
                     </Row>
                 </div>
@@ -138,14 +138,13 @@ class About extends Component {
                                 <h4>
                                     Zahra Teymouri (Zaraco)
                                 </h4>
-                                <p><FontAwesomeIcon icon={faLaptop} style={{marginRight: "10px"}}/> Front-End & React
-                                    Developer</p>
-                                <p><FontAwesomeIcon icon={faMapPin} style={{marginRight: "10px"}}/> Based in Genova,
+                                <p><FontAwesomeIcon icon={faLaptop} style={{marginRight: "10px"}}/> Web Developer</p>
+                                <p><FontAwesomeIcon icon={faMapPin} style={{marginRight: "10px"}}/> Based in Milan,
                                     Italy</p>
                                 <p><FontAwesomeIcon icon={faGithub} style={{marginRight: "10px"}}/> <a
-                                    href="https://github.com/zaraco" target='_blank'>My Github</a></p>
+                                    href="https://github.com/zaraco" target='_blank'>Github</a></p>
                                 <p><FontAwesomeIcon icon={faLinkedin} style={{marginRight: "10px"}}/> <a
-                                    href="https://www.linkedin.com/in/zaraco/" target='_blank'>My Linkedin</a></p>
+                                    href="https://www.linkedin.com/in/zaraco/" target='_blank'> Linkedin</a></p>
 
                             </Col>
                         </Row>
@@ -153,7 +152,7 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="experience">
-                    <Row className="content">
+                    <Row className="content justify-content-md-center">
                         <Col md={12}>
                             <h4><FontAwesomeIcon icon={faBlackTie} style={{marginRight: "10px"}}/>
                                 Experience
@@ -161,71 +160,19 @@ class About extends Component {
                         </Col>
 
 
-                        <Col md={{span: 3, offset: 1}}>
+                        <Col md={3}>
                             <Card className="cart1">
                                 <Card.Body>
                                     <Card.Title><FontAwesomeIcon icon={faReact}/>
-                                        React Developer</Card.Title>
+                                        Web Developer</Card.Title>
                                     <Card.Text>
-                                        I am working as a Freelance developer. </Card.Text>
+                                        I am working as a Web developer. </Card.Text>
                                     <Card.Text>
                                         Here's a selection of some recent work. For more up to the minute work, you can
                                         visit me on Github.
                                     </Card.Text>
                                     <Card.Link href="https://github.com/zaraco" target='_blank'>Github</Card.Link>
                                     <Card.Link href="/contact" target='_blank'>Contact me</Card.Link>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col md={2}>
-                            <Card className="cart2">
-                                <Card.Body>
-                                    <Card.Title><FontAwesomeIcon icon={faCode}/>
-                                        Javascript Developer</Card.Title>
-                                    <Card.Text>
-                                        I have developed the Bazyad website. </Card.Text>
-                                    <Card.Text>
-                                        Here's the link, please visit it.
-                                    </Card.Text>
-                                    <Card.Link href="https://bazyad.com/" target='_blank'>Bazyad</Card.Link>
-                                    <Card.Link href="http://zara-co.com/samples/pixel-editor/" target='_blank'>Pixel-Editor</Card.Link>
-
-                                </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col md={2}>
-                            <Card className="cart3">
-                                <Card.Body>
-                                    <Card.Title><FontAwesomeIcon icon={faTerminal}/>
-                                        React-Redux Developer</Card.Title>
-                                    <Card.Text>
-                                        I have developed websites by React-Reduct </Card.Text>
-                                    <Card.Text>
-                                        Here's the links, please visit it.
-                                    </Card.Text>
-                                    <Card.Link href="https://github.com/zaraco/memoreat-website-react-redux"
-                                               target='_blank'>Memoreat</Card.Link>
-                                    <Card.Link href="https://github.com/zaraco/e-shopping-cart-react-redux"
-                                               target='_blank'>shopping</Card.Link>
-
-                                </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col md={2}>
-                            <Card className="cart4">
-                                <Card.Body>
-                                    <Card.Title><FontAwesomeIcon icon={faCode}/>
-                                        Typescript Developer</Card.Title>
-                                    <Card.Text>
-                                        Typescript-Redux </Card.Text>
-                                    <Card.Text>
-                                        Here's the link, please visit it.
-                                    </Card.Text>
-                                    <Card.Link href="https://github.com/zaraco/github-user-search-react-redux-typescript" target='_blank'>Search-Github</Card.Link>
-
                                 </Card.Body>
                             </Card>
                         </Col>
